@@ -110,6 +110,11 @@ namespace SRV1
             Thread.Sleep(300);
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             work = false;

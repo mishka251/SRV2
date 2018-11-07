@@ -38,7 +38,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(528, 242);
+            this.btnStart.Location = new System.Drawing.Point(508, 257);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             // btnStop
             // 
-            this.btnStop.Location = new System.Drawing.Point(434, 242);
+            this.btnStop.Location = new System.Drawing.Point(86, 264);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(75, 23);
             this.btnStop.TabIndex = 5;
@@ -59,24 +59,25 @@
             // lbBuf
             // 
             this.lbBuf.FormattingEnabled = true;
-            this.lbBuf.Location = new System.Drawing.Point(245, 30);
+            this.lbBuf.Location = new System.Drawing.Point(289, 30);
             this.lbBuf.Name = "lbBuf";
-            this.lbBuf.Size = new System.Drawing.Size(149, 251);
+            this.lbBuf.Size = new System.Drawing.Size(294, 225);
             this.lbBuf.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(251, 9);
+            this.label1.Location = new System.Drawing.Point(286, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Очередь";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 30);
+            this.label2.Location = new System.Drawing.Point(14, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 13);
             this.label2.TabIndex = 8;
@@ -85,16 +86,16 @@
             // lbWork
             // 
             this.lbWork.FormattingEnabled = true;
-            this.lbWork.Location = new System.Drawing.Point(17, 59);
+            this.lbWork.Location = new System.Drawing.Point(17, 46);
             this.lbWork.Name = "lbWork";
-            this.lbWork.Size = new System.Drawing.Size(129, 199);
+            this.lbWork.Size = new System.Drawing.Size(222, 212);
             this.lbWork.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 292);
+            this.ClientSize = new System.Drawing.Size(642, 302);
             this.Controls.Add(this.lbWork);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
